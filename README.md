@@ -1,4 +1,33 @@
-<h2 align="center">💫 About Me:<br>Full-stack developer in progress, building real-world projects while diving deep into Web Development, DevOps, and AI Automations.<br><br>Currently hacking, contributing, and building — one commit at a time.<br><br>🤝 Open-source collaborations<br><br>🧠 Mentorship & learning opportunities<br><br>🏆 Hackathons & team-based builds<br><br>🚀 Startup / early-stage project contributions<br><br>I love solving problems, shipping fast, and learning by building.<br>Curious by nature, creative in execution, and consistent in discipline.<br><br>Currently exploring scalable backend systems, automation workflows, and AI-powered applications.<br><br>Let’s build something meaningful Together</h2>
+<div align="center">
+  <img src="./assets/hero.svg" width="100%" alt="MONSTER13LIAR - full-stack developer building web, DevOps, and AI automation systems" />
+</div>
+
+<br>
+
+<div align="center">
+  <a href="./assets/build-session.mp4">
+    <img src="./assets/build-session.gif" width="92%" alt="Build session screencast preview" />
+  </a>
+  <br>
+  <sub><strong>build tape:</strong> web apps, backend systems, automation workflows, and AI-powered projects</sub>
+</div>
+
+<br>
+
+<p align="center">
+  <a href="https://github.com/MONSTER13LIAR?tab=repositories">
+    <img src="https://img.shields.io/badge/Explore-Repositories-00F5FF?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117" alt="Explore repositories" />
+  </a>
+  <img src="https://img.shields.io/badge/Focus-Web%20Development%20%7C%20DevOps%20%7C%20AI%20Automation-39FF14?style=for-the-badge&labelColor=0D1117&color=39FF14" alt="Focus: Web Development, DevOps, AI Automation" />
+</p>
+
+<table align="center">
+  <tr>
+    <td align="center"><strong>Shipping</strong><br><sub>real projects, fast iteration</sub></td>
+    <td align="center"><strong>Learning</strong><br><sub>systems, scale, product thinking</sub></td>
+    <td align="center"><strong>Collaborating</strong><br><sub>open source, hackathons, startups</sub></td>
+  </tr>
+</table>
 
 ###
 

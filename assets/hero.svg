@@ -1,0 +1,108 @@
+<svg width="1280" height="440" viewBox="0 0 1280 440" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">MONSTER13LIAR animated developer header</title>
+  <desc id="desc">Animated neon terminal banner for a full-stack developer focused on web development, DevOps, and AI automation.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="440" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#070B10"/>
+      <stop offset="0.46" stop-color="#0B1018"/>
+      <stop offset="1" stop-color="#101414"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="150" y1="64" x2="1130" y2="358" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00F5FF"/>
+      <stop offset="0.52" stop-color="#39FF14"/>
+      <stop offset="1" stop-color="#FF3D81"/>
+    </linearGradient>
+    <linearGradient id="scan" x1="0" y1="0" x2="1280" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00F5FF" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#00F5FF" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#00F5FF" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="64" height="64" patternUnits="userSpaceOnUse">
+      <path d="M64 0H0V64" stroke="#16313B" stroke-width="1"/>
+    </pattern>
+    <filter id="glow" x="-20%" y="-40%" width="140%" height="180%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0  0 0 0 0 0.94  0 0 0 0 1  0 0 0 0.75 0" result="cyanGlow"/>
+      <feMerge>
+        <feMergeNode in="cyanGlow"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="softShadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="18" stdDeviation="20" flood-color="#000000" flood-opacity="0.45"/>
+    </filter>
+    <style>
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace; }
+      .title { font-size: 84px; font-weight: 900; letter-spacing: 7px; }
+      .subtitle { font-size: 26px; font-weight: 800; letter-spacing: 3px; }
+      .small { font-size: 20px; font-weight: 650; }
+      .tiny { font-size: 15px; font-weight: 700; letter-spacing: 1px; }
+      .dash { stroke-dasharray: 18 16; animation: dash 9s linear infinite; }
+      .pulse { animation: pulse 2.4s ease-in-out infinite; transform-origin: center; }
+      .blink { animation: blink 1s steps(2, start) infinite; }
+      .floatA { animation: floatA 7s ease-in-out infinite; }
+      .floatB { animation: floatB 8s ease-in-out infinite; }
+      .scanline { animation: scanline 5s linear infinite; }
+      @keyframes dash { to { stroke-dashoffset: -272; } }
+      @keyframes pulse { 0%, 100% { opacity: .44; transform: scale(1); } 50% { opacity: 1; transform: scale(1.25); } }
+      @keyframes blink { 0%, 45% { opacity: 1; } 46%, 100% { opacity: 0; } }
+      @keyframes floatA { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-10px); } }
+      @keyframes floatB { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(12px); } }
+      @keyframes scanline { from { transform: translateY(-36px); } to { transform: translateY(456px); } }
+    </style>
+  </defs>
+
+  <rect width="1280" height="440" rx="30" fill="url(#bg)"/>
+  <rect width="1280" height="440" rx="30" fill="url(#grid)" opacity="0.42"/>
+  <path d="M52 342C177 248 252 262 370 180C486 100 558 64 704 116C840 164 924 244 1062 178C1120 150 1170 112 1226 86" stroke="url(#accent)" stroke-width="3" opacity="0.5" class="dash"/>
+  <path d="M40 84C156 150 266 76 390 128C528 186 594 316 750 288C880 264 940 124 1084 150C1142 160 1188 190 1240 226" stroke="#39FF14" stroke-width="2" opacity="0.34" class="dash"/>
+
+  <g class="scanline">
+    <rect x="0" y="0" width="1280" height="26" fill="url(#scan)" opacity="0.7"/>
+  </g>
+
+  <g opacity="0.95">
+    <circle cx="160" cy="120" r="5" fill="#00F5FF" class="pulse"/>
+    <circle cx="334" cy="252" r="4" fill="#39FF14" class="pulse"/>
+    <circle cx="1084" cy="128" r="5" fill="#FF3D81" class="pulse"/>
+    <circle cx="1136" cy="316" r="4" fill="#00F5FF" class="pulse"/>
+  </g>
+
+  <g class="floatA" filter="url(#softShadow)">
+    <rect x="66" y="70" width="338" height="226" rx="18" fill="#0A1018" stroke="#223B48"/>
+    <rect x="66" y="70" width="338" height="44" rx="18" fill="#111923"/>
+    <circle cx="94" cy="92" r="6" fill="#FF3D81"/>
+    <circle cx="116" cy="92" r="6" fill="#FFD166"/>
+    <circle cx="138" cy="92" r="6" fill="#39FF14"/>
+    <text x="91" y="146" class="mono small" fill="#00F5FF">$ whoami</text>
+    <text x="91" y="176" class="mono small" fill="#E8F7FF">full-stack builder</text>
+    <text x="91" y="216" class="mono small" fill="#39FF14">$ focus --now</text>
+    <text x="91" y="246" class="mono small" fill="#E8F7FF">web + devops + ai</text>
+    <rect x="315" y="233" width="12" height="24" fill="#00F5FF" class="blink"/>
+  </g>
+
+  <g filter="url(#glow)">
+    <text x="448" y="164" class="mono title" fill="#EAFBFF">MONSTER13LIAR</text>
+    <text x="451" y="206" class="mono subtitle" fill="url(#accent)">FULL-STACK DEV IN PROGRESS</text>
+  </g>
+
+  <text x="452" y="250" class="mono small" fill="#BFEFFF">Building real-world projects across scalable backends, automation workflows,</text>
+  <text x="452" y="280" class="mono small" fill="#BFEFFF">and AI-powered applications. Shipping fast, learning deep, breaking limits.</text>
+
+  <g class="floatB">
+    <rect x="452" y="318" width="188" height="36" rx="18" fill="#071017" stroke="#00F5FF" opacity="0.88"/>
+    <text x="478" y="342" class="mono tiny" fill="#00F5FF">OPEN SOURCE</text>
+    <rect x="660" y="318" width="160" height="36" rx="18" fill="#071017" stroke="#39FF14" opacity="0.88"/>
+    <text x="692" y="342" class="mono tiny" fill="#39FF14">HACKATHONS</text>
+    <rect x="840" y="318" width="206" height="36" rx="18" fill="#071017" stroke="#FF3D81" opacity="0.88"/>
+    <text x="866" y="342" class="mono tiny" fill="#FF8AB0">STARTUP BUILDS</text>
+  </g>
+
+  <g opacity="0.65">
+    <path d="M1088 254H1222V388H1088V254Z" stroke="#223B48"/>
+    <path d="M1110 282H1200M1110 310H1176M1110 338H1190M1110 366H1158" stroke="#00F5FF" stroke-width="3" stroke-linecap="round"/>
+    <path d="M1056 296L1088 296M1222 296L1256 296M1155 222V254M1155 388V420" stroke="#39FF14" stroke-width="3" stroke-linecap="round" class="dash"/>
+  </g>
+
+  <rect x="1" y="1" width="1278" height="438" rx="30" stroke="url(#accent)" stroke-width="2" opacity="0.7"/>
+</svg>
