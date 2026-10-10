@@ -2,7 +2,7 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/readme/hero-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="./assets/readme/hero-light.svg">
-    <img alt="Hi, I'm Abhijay. Self-taught developer building MCPatch and Superwired." src="./assets/readme/hero-dark.svg" width="100%">
+    <img alt="Hi, I'm Abhijay. Self-taught developer building MCPatch, Draftex and Superwired." src="./assets/readme/hero-dark.svg" width="100%">
   </picture>
 </a>
 
@@ -10,6 +10,7 @@
   <a href="https://monster13liar.xyz"><b>Portfolio</b></a> &nbsp;·&nbsp;
   <a href="https://x.com/MONSTER13LIAR"><b>X</b></a> &nbsp;·&nbsp;
   <a href="https://mcpatch-nine.vercel.app"><b>MCPatch</b></a> &nbsp;·&nbsp;
+  <a href="https://draftex-app.vercel.app"><b>Draftex</b></a> &nbsp;·&nbsp;
   <a href="https://superwired.vercel.app"><b>Superwired</b></a> &nbsp;·&nbsp;
   <a href="mailto:monster13liar@gmail.com"><b>Email</b></a>
 </p>
@@ -21,13 +22,18 @@
   <a href="https://superwired.vercel.app"><img alt="Superwired: AI automation for your business. Live in days, not months." src="./assets/readme/superwired-card.svg" width="49%"></a>
 </p>
 
+<p align="center">
+  <a href="https://draftex-app.vercel.app"><img alt="Draftex: Never run out of things to post. Save what you ship. Post every day." src="./assets/readme/draftex-card.svg" width="49%"></a>
+</p>
+
 **MCPatch** replays the connection to your MCP server the way Claude does, names the step that breaks, and writes the fix.
+**Draftex** saves what you ship and the plans you tell it, writes X posts in your voice, and posts them on a schedule. $2.99 a month or $15 for life.
 **Superwired** is my AI agency: we set up an AI workflow for a business from start to finish, on accounts the business owns.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/readme/stats-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/readme/stats-light.svg">
-  <img alt="17 projects built since Dec 2025. 1st place, GIC 2030 AI Challenge. 1 day to build and launch MCPatch." src="./assets/readme/stats-dark.svg" width="100%">
+  <img alt="18 projects built since Dec 2025. 1st place, GIC 2030 AI Challenge. 1 day to build and launch MCPatch." src="./assets/readme/stats-dark.svg" width="100%">
 </picture>
 
 ### Worth opening
