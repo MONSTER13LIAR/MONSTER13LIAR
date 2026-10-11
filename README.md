@@ -9,8 +9,8 @@
 <p align="center">
   <a href="https://monster13liar.xyz"><b>Portfolio</b></a> &nbsp;·&nbsp;
   <a href="https://x.com/MONSTER13LIAR"><b>X</b></a> &nbsp;·&nbsp;
-  <a href="https://mcpatch-nine.vercel.app"><b>MCPatch</b></a> &nbsp;·&nbsp;
-  <a href="https://draftex-app.vercel.app"><b>Draftex</b></a> &nbsp;·&nbsp;
+  <a href="https://mcpatch.monster13liar.xyz"><b>MCPatch</b></a> &nbsp;·&nbsp;
+  <a href="https://draftex.monster13liar.xyz"><b>Draftex</b></a> &nbsp;·&nbsp;
   <a href="https://superwired.vercel.app"><b>Superwired</b></a> &nbsp;·&nbsp;
   <a href="mailto:monster13liar@gmail.com"><b>Email</b></a>
 </p>
@@ -18,12 +18,12 @@
 ### Building now
 
 <p align="center">
-  <a href="https://mcpatch-nine.vercel.app"><img alt="MCPatch: Claude says Couldn't reach. MCPatch finds why." src="./assets/readme/mcpatch-card.svg" width="49%"></a>
+  <a href="https://mcpatch.monster13liar.xyz"><img alt="MCPatch: Claude says Couldn't reach. MCPatch finds why." src="./assets/readme/mcpatch-card.svg" width="49%"></a>
   <a href="https://superwired.vercel.app"><img alt="Superwired: AI automation for your business. Live in days, not months." src="./assets/readme/superwired-card.svg" width="49%"></a>
 </p>
 
 <p align="center">
-  <a href="https://draftex-app.vercel.app"><img alt="Draftex: Never run out of things to post. Save what you ship. Post every day." src="./assets/readme/draftex-card.svg" width="49%"></a>
+  <a href="https://draftex.monster13liar.xyz"><img alt="Draftex: Never run out of things to post. Save what you ship. Post every day." src="./assets/readme/draftex-card.svg" width="49%"></a>
 </p>
 
 **MCPatch** replays the connection to your MCP server the way Claude does, names the step that breaks, and writes the fix.
