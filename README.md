@@ -33,7 +33,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/readme/stats-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/readme/stats-light.svg">
-  <img alt="18 projects built since Dec 2025. 1st place, GIC 2030 AI Challenge. 1 day to build and launch MCPatch." src="./assets/readme/stats-dark.svg" width="100%">
+  <img alt="19 projects built since Dec 2025. 1st place, GIC 2030 AI Challenge. 1 day to build and launch MCPatch." src="./assets/readme/stats-dark.svg" width="100%">
 </picture>
 
 ### Worth opening
